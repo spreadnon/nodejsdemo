@@ -1,0 +1,943 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>活动统计模块</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/活动统计模块/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/活动统计模块/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1254" class="ax_default box_2">
+        <div id="u1254_div" class=""></div>
+        <div id="u1254_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1255" class="ax_default box_2">
+        <div id="u1255_div" class=""></div>
+        <div id="u1255_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1256" class="ax_default label">
+        <div id="u1256_div" class=""></div>
+        <div id="u1256_text" class="text ">
+          <p><span>需求说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1257" class="ax_default _文本段落">
+        <div id="u1257_div" class=""></div>
+        <div id="u1257_text" class="text ">
+          <p><span>1、操作</span></p><p><span>&nbsp;&nbsp; &nbsp;&nbsp; 新增：时间区间进行搜索&nbsp;&nbsp; 维度·：年月日时</span></p><p><span>&nbsp;&nbsp; &nbsp;&nbsp; 时间范围按照活动的时间进行搜索</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1258" class="ax_default _文本段落">
+        <div id="u1258_div" class=""></div>
+        <div id="u1258_text" class="text ">
+          <p><span style="font-family:'Arial Normal', 'Arial', sans-serif;">2</span><span style="font-family:'PingFang SC ', 'PingFang SC', sans-serif;">、统计字段说明</span></p><ul><li style=""><span style="font-family:'PingFang SC ', 'PingFang SC', sans-serif;">浏览量：指该活动被浏览的总次数（点击进入此即算一次）；</span></li><li style=""><span style="font-family:'PingFang SC ', 'PingFang SC', sans-serif;">访客量：指该活动被访问的总去重人数；</span></li><li style=""><span style="font-family:'PingFang SC ', 'PingFang SC', sans-serif;">抽奖次数：指该活动抽奖次数（抽取一次就+1不去重）</span></li><li style=""><span style="font-family:'PingFang SC ', 'PingFang SC', sans-serif;">抽奖人数：指该活动抽奖用户 统计（一个用户抽奖多次算一人数）</span></li><li style=""><span style="font-family:'PingFang SC ', 'PingFang SC', sans-serif;">中奖人数：指该活动中奖人数统计（不算兜底）</span></li></ul>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1259" class="ax_default box_3">
+        <div id="u1259_div" class=""></div>
+        <div id="u1259_text" class="text ">
+          <p><span>需求说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1260" class="ax_default box_2">
+        <div id="u1260_div" class=""></div>
+        <div id="u1260_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1261" class="ax_default _三级标题">
+        <div id="u1261_div" class=""></div>
+        <div id="u1261_text" class="text ">
+          <p><span>系统管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u1262" class="ax_default icon">
+        <img id="u1262_img" class="img " src="images/限时购统计/u72.svg"/>
+        <div id="u1262_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1263" class="ax_default box_2">
+        <div id="u1263_div" class=""></div>
+        <div id="u1263_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1264" class="ax_default box_2">
+        <div id="u1264_div" class=""></div>
+        <div id="u1264_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1265" class="ax_default label">
+        <div id="u1265_div" class=""></div>
+        <div id="u1265_text" class="text ">
+          <p><span>促销活动</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u1266" class="ax_default icon">
+        <img id="u1266_img" class="img " src="images/限时购统计/u76.svg"/>
+        <div id="u1266_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u1267" class="ax_default icon">
+        <img id="u1267_img" class="img " src="images/限时购统计/u77.svg"/>
+        <div id="u1267_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1268" class="ax_default box_2">
+        <div id="u1268_div" class=""></div>
+        <div id="u1268_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1269" class="ax_default label">
+        <div id="u1269_div" class=""></div>
+        <div id="u1269_text" class="text ">
+          <p><span>抽奖活动</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (线段) -->
+      <div id="u1270" class="ax_default line">
+        <img id="u1270_img" class="img " src="images/限时购统计/u80.svg"/>
+        <div id="u1270_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u1271" class="ax_default line">
+        <img id="u1271_img" class="img " src="images/限时购统计/u81.svg"/>
+        <div id="u1271_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u1272" class="ax_default icon">
+        <img id="u1272_img" class="img " src="images/限时购统计/u82.svg"/>
+        <div id="u1272_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1273" class="ax_default label">
+        <div id="u1273_div" class=""></div>
+        <div id="u1273_text" class="text ">
+          <p><span>抽奖总况</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1274" class="ax_default box_2">
+        <div id="u1274_div" class=""></div>
+        <div id="u1274_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1275" class="ax_default label">
+        <div id="u1275_div" class=""></div>
+        <div id="u1275_text" class="text ">
+          <p><span>活动曝光</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1276" class="ax_default label">
+        <div id="u1276_div" class=""></div>
+        <div id="u1276_text" class="text ">
+          <p><span>活动参与</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1277" class="ax_default label">
+        <div id="u1277_div" class=""></div>
+        <div id="u1277_text" class="text ">
+          <p><span>浏览量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1278" class="ax_default label">
+        <div id="u1278_div" class=""></div>
+        <div id="u1278_text" class="text ">
+          <p><span>访客量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1279" class="ax_default label">
+        <div id="u1279_div" class=""></div>
+        <div id="u1279_text" class="text ">
+          <p><span>抽奖次数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1280" class="ax_default label">
+        <div id="u1280_div" class=""></div>
+        <div id="u1280_text" class="text ">
+          <p><span>抽奖人数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (线段) -->
+      <div id="u1281" class="ax_default line">
+        <img id="u1281_img" class="img " src="images/限时购统计/u97.svg"/>
+        <div id="u1281_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (线段) -->
+      <div id="u1282" class="ax_default line">
+        <img id="u1282_img" class="img " src="images/限时购统计/u98.svg"/>
+        <div id="u1282_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1283" class="ax_default label">
+        <div id="u1283_div" class=""></div>
+        <div id="u1283_text" class="text ">
+          <p><span>中奖人数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1284" class="ax_default box_2">
+        <div id="u1284_div" class=""></div>
+        <div id="u1284_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1285" class="ax_default label">
+        <div id="u1285_div" class=""></div>
+        <div id="u1285_text" class="text ">
+          <p><span>活动统计</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (线段) -->
+      <div id="u1286" class="ax_default line">
+        <img id="u1286_img" class="img " src="images/限时购统计/u104.svg"/>
+        <div id="u1286_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1287" class="ax_default label">
+        <div id="u1287_div" class=""></div>
+        <div id="u1287_text" class="text ">
+          <p><span>统计本次活动数据效果，为活动复盘提供依据</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1288" class="ax_default label">
+        <div id="u1288_div" class=""></div>
+        <div id="u1288_text" class="text ">
+          <p><span>中奖明细</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (线段) -->
+      <div id="u1289" class="ax_default line">
+        <img id="u1289_img" class="img " src="images/限时购统计/u107.svg"/>
+        <div id="u1289_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1290" class="ax_default label">
+        <div id="u1290_div" class=""></div>
+        <div id="u1290_text" class="text ">
+          <p><span>统计中奖明细用活动结束后奖品发放以及活动复盘</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1291" class="ax_default box_1">
+        <div id="u1291_div" class=""></div>
+        <div id="u1291_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1292" class="ax_default box_1">
+        <div id="u1292_div" class=""></div>
+        <div id="u1292_text" class="text ">
+          <p><span>搜索</span></p>
+        </div>
+      </div>
+
+      <!-- 请输入奖品名称 (文本框) -->
+      <div id="u1293" class="ax_default text_field disabled" data-label="请输入奖品名称">
+        <div id="u1293_div" class="disabled"></div>
+        <input id="u1293_input" type="text" value="" class="u1293_input" disabled/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1294" class="ax_default label">
+        <div id="u1294_div" class=""></div>
+        <div id="u1294_text" class="text ">
+          <p><span>&nbsp; </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (向左箭头按钮) -->
+      <div id="u1295" class="ax_default box_1">
+        <img id="u1295_img" class="img " src="images/限时购统计/u133.svg"/>
+        <div id="u1295_text" class="text ">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1296" class="ax_default _三级标题">
+        <div id="u1296_div" class=""></div>
+        <div id="u1296_text" class="text ">
+          <p><span>活动时间</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1297" class="ax_default box_1">
+        <div id="u1297_div" class=""></div>
+        <div id="u1297_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (线段) -->
+      <div id="u1298" class="ax_default line">
+        <img id="u1298_img" class="img " src="images/限时购统计/u149.svg"/>
+        <div id="u1298_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1299" class="ax_default box_1">
+        <div id="u1299_div" class=""></div>
+        <div id="u1299_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1300" class="ax_default primary_button">
+        <div id="u1300_div" class=""></div>
+        <div id="u1300_text" class="text ">
+          <p><span>导出</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u1301" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1302" class="ax_default table_cell">
+          <img id="u1302_img" class="img " src="images/活动统计模块/u1302.png"/>
+          <div id="u1302_text" class="text ">
+            <p><span>抽奖时间</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1303" class="ax_default table_cell">
+          <img id="u1303_img" class="img " src="images/活动统计模块/u1303.png"/>
+          <div id="u1303_text" class="text ">
+            <p><span>登录手机号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1304" class="ax_default table_cell">
+          <img id="u1304_img" class="img " src="images/活动统计模块/u1304.png"/>
+          <div id="u1304_text" class="text ">
+            <p><span>奖品信息 </span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1305" class="ax_default table_cell">
+          <img id="u1305_img" class="img " src="images/活动统计模块/u1305.png"/>
+          <div id="u1305_text" class="text ">
+            <p><span>领取人姓名</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1306" class="ax_default table_cell">
+          <img id="u1306_img" class="img " src="images/活动统计模块/u1306.png"/>
+          <div id="u1306_text" class="text ">
+            <p><span>领取人手机号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1307" class="ax_default table_cell">
+          <img id="u1307_img" class="img " src="images/活动统计模块/u1307.png"/>
+          <div id="u1307_text" class="text ">
+            <p><span>领取人地址</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1308" class="ax_default table_cell">
+          <img id="u1308_img" class="img " src="images/活动统计模块/u1308.png"/>
+          <div id="u1308_text" class="text ">
+            <p><span>领取状态</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1309" class="ax_default table_cell">
+          <img id="u1309_img" class="img " src="images/活动统计模块/u1309.png"/>
+          <div id="u1309_text" class="text ">
+            <p><span>2021.02.01</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1310" class="ax_default table_cell">
+          <img id="u1310_img" class="img " src="images/活动统计模块/u1310.png"/>
+          <div id="u1310_text" class="text ">
+            <p><span>13718808458</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1311" class="ax_default table_cell">
+          <img id="u1311_img" class="img " src="images/活动统计模块/u1311.png"/>
+          <div id="u1311_text" class="text ">
+            <p><span>iphone13</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1312" class="ax_default table_cell">
+          <img id="u1312_img" class="img " src="images/活动统计模块/u1312.png"/>
+          <div id="u1312_text" class="text ">
+            <p><span>XXX</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1313" class="ax_default table_cell">
+          <img id="u1313_img" class="img " src="images/活动统计模块/u1313.png"/>
+          <div id="u1313_text" class="text ">
+            <p><span>13718808458</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1314" class="ax_default table_cell">
+          <img id="u1314_img" class="img " src="images/活动统计模块/u1314.png"/>
+          <div id="u1314_text" class="text ">
+            <p><span>北京市朝阳区世贸大厦B座6层</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1315" class="ax_default table_cell">
+          <img id="u1315_img" class="img " src="images/活动统计模块/u1315.png"/>
+          <div id="u1315_text" class="text ">
+            <p><span>未领取</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1316" class="ax_default table_cell">
+          <img id="u1316_img" class="img " src="images/活动统计模块/u1309.png"/>
+          <div id="u1316_text" class="text ">
+            <p><span>2021.02.01</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1317" class="ax_default table_cell">
+          <img id="u1317_img" class="img " src="images/活动统计模块/u1310.png"/>
+          <div id="u1317_text" class="text ">
+            <p><span>13718808458</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1318" class="ax_default table_cell">
+          <img id="u1318_img" class="img " src="images/活动统计模块/u1311.png"/>
+          <div id="u1318_text" class="text ">
+            <p><span>iphone13</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1319" class="ax_default table_cell">
+          <img id="u1319_img" class="img " src="images/活动统计模块/u1312.png"/>
+          <div id="u1319_text" class="text ">
+            <p><span>XXX</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1320" class="ax_default table_cell">
+          <img id="u1320_img" class="img " src="images/活动统计模块/u1313.png"/>
+          <div id="u1320_text" class="text ">
+            <p><span>13718808458</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1321" class="ax_default table_cell">
+          <img id="u1321_img" class="img " src="images/活动统计模块/u1314.png"/>
+          <div id="u1321_text" class="text ">
+            <p><span>北京市朝阳区世贸大厦B座6层</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1322" class="ax_default table_cell">
+          <img id="u1322_img" class="img " src="images/活动统计模块/u1315.png"/>
+          <div id="u1322_text" class="text ">
+            <p><span>未领取</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1323" class="ax_default table_cell">
+          <img id="u1323_img" class="img " src="images/活动统计模块/u1309.png"/>
+          <div id="u1323_text" class="text ">
+            <p><span>2021.02.01</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1324" class="ax_default table_cell">
+          <img id="u1324_img" class="img " src="images/活动统计模块/u1310.png"/>
+          <div id="u1324_text" class="text ">
+            <p><span>13718808458</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1325" class="ax_default table_cell">
+          <img id="u1325_img" class="img " src="images/活动统计模块/u1311.png"/>
+          <div id="u1325_text" class="text ">
+            <p><span>iphone13</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1326" class="ax_default table_cell">
+          <img id="u1326_img" class="img " src="images/活动统计模块/u1312.png"/>
+          <div id="u1326_text" class="text ">
+            <p><span>XXX</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1327" class="ax_default table_cell">
+          <img id="u1327_img" class="img " src="images/活动统计模块/u1313.png"/>
+          <div id="u1327_text" class="text ">
+            <p><span>13718808458</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1328" class="ax_default table_cell">
+          <img id="u1328_img" class="img " src="images/活动统计模块/u1314.png"/>
+          <div id="u1328_text" class="text ">
+            <p><span>北京市朝阳区世贸大厦B座6层</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1329" class="ax_default table_cell">
+          <img id="u1329_img" class="img " src="images/活动统计模块/u1315.png"/>
+          <div id="u1329_text" class="text ">
+            <p><span>未领取</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1330" class="ax_default table_cell">
+          <img id="u1330_img" class="img " src="images/活动统计模块/u1309.png"/>
+          <div id="u1330_text" class="text ">
+            <p><span>2021.02.01</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1331" class="ax_default table_cell">
+          <img id="u1331_img" class="img " src="images/活动统计模块/u1310.png"/>
+          <div id="u1331_text" class="text ">
+            <p><span>13718808458</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1332" class="ax_default table_cell">
+          <img id="u1332_img" class="img " src="images/活动统计模块/u1311.png"/>
+          <div id="u1332_text" class="text ">
+            <p><span>iphone13</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1333" class="ax_default table_cell">
+          <img id="u1333_img" class="img " src="images/活动统计模块/u1312.png"/>
+          <div id="u1333_text" class="text ">
+            <p><span>XXX</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1334" class="ax_default table_cell">
+          <img id="u1334_img" class="img " src="images/活动统计模块/u1313.png"/>
+          <div id="u1334_text" class="text ">
+            <p><span>13718808458</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1335" class="ax_default table_cell">
+          <img id="u1335_img" class="img " src="images/活动统计模块/u1314.png"/>
+          <div id="u1335_text" class="text ">
+            <p><span>北京市朝阳区世贸大厦B座6层</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1336" class="ax_default table_cell">
+          <img id="u1336_img" class="img " src="images/活动统计模块/u1315.png"/>
+          <div id="u1336_text" class="text ">
+            <p><span>未领取</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1337" class="ax_default table_cell">
+          <img id="u1337_img" class="img " src="images/活动统计模块/u1309.png"/>
+          <div id="u1337_text" class="text ">
+            <p><span>2021.02.01</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1338" class="ax_default table_cell">
+          <img id="u1338_img" class="img " src="images/活动统计模块/u1310.png"/>
+          <div id="u1338_text" class="text ">
+            <p><span>13718808458</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1339" class="ax_default table_cell">
+          <img id="u1339_img" class="img " src="images/活动统计模块/u1311.png"/>
+          <div id="u1339_text" class="text ">
+            <p><span>iphone13</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1340" class="ax_default table_cell">
+          <img id="u1340_img" class="img " src="images/活动统计模块/u1312.png"/>
+          <div id="u1340_text" class="text ">
+            <p><span>XXX</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1341" class="ax_default table_cell">
+          <img id="u1341_img" class="img " src="images/活动统计模块/u1313.png"/>
+          <div id="u1341_text" class="text ">
+            <p><span>13718808458</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1342" class="ax_default table_cell">
+          <img id="u1342_img" class="img " src="images/活动统计模块/u1314.png"/>
+          <div id="u1342_text" class="text ">
+            <p><span>北京市朝阳区世贸大厦B座6层</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1343" class="ax_default table_cell">
+          <img id="u1343_img" class="img " src="images/活动统计模块/u1315.png"/>
+          <div id="u1343_text" class="text ">
+            <p><span>未领取</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1344" class="ax_default table_cell">
+          <img id="u1344_img" class="img " src="images/活动统计模块/u1309.png"/>
+          <div id="u1344_text" class="text ">
+            <p><span>2021.02.01</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1345" class="ax_default table_cell">
+          <img id="u1345_img" class="img " src="images/活动统计模块/u1310.png"/>
+          <div id="u1345_text" class="text ">
+            <p><span>13718808458</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1346" class="ax_default table_cell">
+          <img id="u1346_img" class="img " src="images/活动统计模块/u1311.png"/>
+          <div id="u1346_text" class="text ">
+            <p><span>iphone13</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1347" class="ax_default table_cell">
+          <img id="u1347_img" class="img " src="images/活动统计模块/u1312.png"/>
+          <div id="u1347_text" class="text ">
+            <p><span>XXX</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1348" class="ax_default table_cell">
+          <img id="u1348_img" class="img " src="images/活动统计模块/u1313.png"/>
+          <div id="u1348_text" class="text ">
+            <p><span>13718808458</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1349" class="ax_default table_cell">
+          <img id="u1349_img" class="img " src="images/活动统计模块/u1314.png"/>
+          <div id="u1349_text" class="text ">
+            <p><span>北京市朝阳区世贸大厦B座6层</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1350" class="ax_default table_cell">
+          <img id="u1350_img" class="img " src="images/活动统计模块/u1315.png"/>
+          <div id="u1350_text" class="text ">
+            <p><span>未领取</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1351" class="ax_default table_cell">
+          <img id="u1351_img" class="img " src="images/活动统计模块/u1309.png"/>
+          <div id="u1351_text" class="text ">
+            <p><span>2021.02.01</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1352" class="ax_default table_cell">
+          <img id="u1352_img" class="img " src="images/活动统计模块/u1310.png"/>
+          <div id="u1352_text" class="text ">
+            <p><span>13718808458</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1353" class="ax_default table_cell">
+          <img id="u1353_img" class="img " src="images/活动统计模块/u1311.png"/>
+          <div id="u1353_text" class="text ">
+            <p><span>iphone13</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1354" class="ax_default table_cell">
+          <img id="u1354_img" class="img " src="images/活动统计模块/u1312.png"/>
+          <div id="u1354_text" class="text ">
+            <p><span>XXX</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1355" class="ax_default table_cell">
+          <img id="u1355_img" class="img " src="images/活动统计模块/u1313.png"/>
+          <div id="u1355_text" class="text ">
+            <p><span>13718808458</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1356" class="ax_default table_cell">
+          <img id="u1356_img" class="img " src="images/活动统计模块/u1314.png"/>
+          <div id="u1356_text" class="text ">
+            <p><span>北京市朝阳区世贸大厦B座6层</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1357" class="ax_default table_cell">
+          <img id="u1357_img" class="img " src="images/活动统计模块/u1315.png"/>
+          <div id="u1357_text" class="text ">
+            <p><span>未领取</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1358" class="ax_default table_cell">
+          <img id="u1358_img" class="img " src="images/活动统计模块/u1358.png"/>
+          <div id="u1358_text" class="text ">
+            <p><span>2021.02.01</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1359" class="ax_default table_cell">
+          <img id="u1359_img" class="img " src="images/活动统计模块/u1359.png"/>
+          <div id="u1359_text" class="text ">
+            <p><span>13718808458</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1360" class="ax_default table_cell">
+          <img id="u1360_img" class="img " src="images/活动统计模块/u1360.png"/>
+          <div id="u1360_text" class="text ">
+            <p><span>iphone13</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1361" class="ax_default table_cell">
+          <img id="u1361_img" class="img " src="images/活动统计模块/u1361.png"/>
+          <div id="u1361_text" class="text ">
+            <p><span>XXX</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1362" class="ax_default table_cell">
+          <img id="u1362_img" class="img " src="images/活动统计模块/u1362.png"/>
+          <div id="u1362_text" class="text ">
+            <p><span>13718808458</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1363" class="ax_default table_cell">
+          <img id="u1363_img" class="img " src="images/活动统计模块/u1363.png"/>
+          <div id="u1363_text" class="text ">
+            <p><span>北京市朝阳区世贸大厦B座6层</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1364" class="ax_default table_cell">
+          <img id="u1364_img" class="img " src="images/活动统计模块/u1364.png"/>
+          <div id="u1364_text" class="text ">
+            <p><span>未领取</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1365" class="ax_default _文本段落">
+        <div id="u1365_div" class=""></div>
+        <div id="u1365_text" class="text ">
+          <p><span>3、明细列表</span></p><p><span>&nbsp;&nbsp; &nbsp;&nbsp; 导出：支持导出列表中的信息 </span></p><p><span>&nbsp;&nbsp; &nbsp;&nbsp; 搜索：按照奖品名称模糊搜索 根据搜索内容展示下方列表</span></p><p><span>&nbsp;&nbsp; &nbsp;&nbsp; 列表字段</span></p><ul><li style=""><span>抽奖时间：用户点击确认使用领取机会的时间</span></li><li style=""><span>登录手机号：展示用户登录手机号</span></li><li style=""><span>奖品信息：展示用户领取奖品的名称</span></li><li style=""><span>领取人姓名：展示用户输入的姓名，仅限实物商品</span></li><li style=""><span>领取人手机号：展示用户输入的手机号，仅限rms与实物两种类型商品</span></li><li style=""><span>领取人地址：展示用户输入的收件人地址，仅限实物商品</span></li><li style=""><span>状态：展示领取状态：未领取、已领取</span></li></ul>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>

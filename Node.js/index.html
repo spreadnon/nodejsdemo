@@ -1,0 +1,43 @@
+<!doctype html>
+<html dir="ltr" lang="zh"
+     dark>
+  <head>
+    <meta charset="utf-8">
+    <title>新标签页</title>
+    <style>
+      html {
+        background-attachment: fixed;
+        background-color: rgba(53,54,58,1);
+        background-position: -64px;
+        background-repeat: no-repeat;
+        height: 100%;
+        overflow: auto;
+      }
+
+      html[has-custom-background] {
+        background-image: -webkit-image-set(
+            url(chrome://theme/IDR_THEME_NTP_BACKGROUND?) 1x,
+            url(chrome://theme/IDR_THEME_NTP_BACKGROUND@2x?) 2x);
+      }
+
+      body {
+        align-items: center;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        margin: 0;
+      }
+
+      html[dark] ntp3p-most-visited {
+        --icon-button-color-active: var(--google-grey-refresh-300);
+        --icon-button-color: white;
+        --tile-hover-color: rgba(255, 255, 255, .1);
+      }
+    </style>
+  </head>
+  <body>
+    <ntp3p-most-visited></ntp3p-most-visited>
+    <script type="module" src="new_tab_page_third_party.js"></script>
+    <link rel="stylesheet" href="chrome://resources/css/text_defaults_md.css">
+  </body>
+</html>
